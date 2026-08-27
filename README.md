@@ -1,81 +1,74 @@
-<div align="center">
-  <a href="https://aamlab.io">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=280&section=header&text=Antonio%20Maguelniski&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Tech%20Lead%20%7C%20DevOps%20Architect%20%7C%20Founder%20@AAMLab&descAlignY=55&descAlign=50" alt="Antonio Maguelniski Header" />
-  </a>
+# Antonio Augusto Maguelniski
 
-  <br>
+**Senior DevOps Engineer & AWS Cloud Architect**
+Turning chaotic cloud environments into predictable, boring and invisible infrastructure.
 
-  ### ⚡ Engineering software that survives the hype.
-
-  <p align="center">
-    I am a Senior Software Engineer and Cloud Architect focused on <b>robustness, security, and scalability</b>.<br>
-    I build digital products, not just disposable code.
-  </p>
-  
-  <br>
-
-  <a href="https://aamlab.io">
-    <img src="https://img.shields.io/badge/FOUNDER_OF-AAM_LAB-000000?style=for-the-badge&logo=rocket&logoColor=white&color=0f172a" />
-  </a>
-   <a href="https://www.linkedin.com/in/SEU_LINKEDIN">
-    <img src="https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-
-</div>
-
-<br>
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![IaC](https://img.shields.io/badge/Infrastructure%20as%20Code-5C2350?style=for-the-badge)
+![FinOps](https://img.shields.io/badge/FinOps-5C2350?style=for-the-badge)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
-### 👨‍💻 The Philosophy
+I started in physical infrastructure, inside an internet provider: FTTx networks, telecom servers, bare-metal virtualization and on-site incident response. From there I moved through software engineering, writing applications and learning the lifecycle from the inside, and today I work where those two ends meet.
 
-I operate at the intersection of **Software Engineering** and **DevOps**. My goal is to eliminate the friction between "it works on my machine" and "it works in production."
+What I do in practice is take ownership of cloud infrastructure for product companies that don't have a platform team: multi-account AWS architecture, everything provisioned in Terraform, delivery pipelines, observability, and cost that stays predictable because it was a design constraint from the first commit rather than a cleanup project two years later.
 
-* 🔭 **Current Focus:** Scaling [**AAM Lab**](https://aamlab.io) — A boutique engineering studio delivering high-end web & mobile solutions.
-* 🛡️ **Core Values:** Privacy by Design, Infrastructure as Code (IaC), and Long-term Maintainability.
-* 🚫 **Anti-Patterns:** I stand against "AI-wrapper" quick fixes and bloatware. I believe in deliberate engineering.
+People who came only from the cloud rarely know what sits underneath the abstraction, and people who came only from the metal tend not to think about pipelines, versioning and cost. I come from both sides.
 
 ---
 
-### 🛠️ Technical Arsenal
+## What I work with
 
-<div align="center">
+**Cloud & architecture**
+AWS — Organizations, IAM Identity Center, EC2, ECS Fargate, ECR, RDS, S3, CloudFront, API Gateway, Lambda, WAF, Route 53, VPC
 
-  **Cloud & Infrastructure**<br>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  
-  <br><br>
+**Infrastructure as code & automation**
+Terraform · Docker · Shell scripting
 
-  **Backend & Systems**<br>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+**CI/CD**
+GitHub Actions · AWS CodePipeline · CodeBuild · Bitbucket Pipelines · Jenkins · GitOps
 
-  <br><br>
+**Security**
+HashiCorp Vault · IAM policy design · AWS Well-Architected · LGPD
 
-  **Industrial & IoT Integration**<br>
-  <img src="https://img.shields.io/badge/MQTT-3C5280?style=for-the-badge&logo=mqtt&logoColor=white" />
-  <img src="https://img.shields.io/badge/IPsec/VPN-000000?style=for-the-badge&logo=openvpn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Industrial_IoT-Hardware-red?style=for-the-badge" />
+**Observability & networking**
+CloudWatch · Grafana · Prometheus · Zabbix · VPN · VPC peering · Linux administration
 
-</div>
+**Databases**
+PostgreSQL · MySQL / MariaDB · MongoDB · DynamoDB
+
+**Development**
+TypeScript / JavaScript · PHP · Python · Bash
 
 ---
 
-### 📊 Engineering Stats
+## Selected results
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_GITHUB&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" height="180" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_GITHUB&layout=compact&theme=dark&hide_border=true" height="180" alt="Top Languages" />
-</div>
+**US$ 66/month** — full production stack: private subnets, ECS Fargate, managed database, TLS and CI/CD.
 
-<br>
+**~40% compute cost reduction** on an existing AWS environment, with no loss of capacity, by changing architecture rather than switching resources off.
 
-<div align="center">
-  <p><i>"Quality is not an act, it is a habit."</i></p>
-  <a href="mailto:antonio@aamlab.io">antonio@aamlab.io</a>
-</div>
+**~50 repositories** cleared of hardcoded credentials, with HashiCorp Vault deployed from scratch as the secrets layer.
+
+**US$ 10K+ in AWS credits** captured across two phased migration rounds aligned to the Well-Architected Framework.
+
+**Two AWS organizations** rebuilt from root access and mixed environments into multi-account setups with Identity Center and isolated VPCs.
+
+**Zero incidents** during a live broadcast of a Brazilian industrial machine monitored in real time at the iba 2025 trade fair in Nuremberg, running on infrastructure I provisioned.
+
+---
+
+## Writing
+
+I write about infrastructure, delivery and cloud cost at **[aamaguelniski.com](https://aamaguelniski.com)** — no hype, only what holds up in practice.
+
+Recurring theme: in most companies the AWS bill has no owner. Whoever provisions doesn't receive the invoice, whoever receives the invoice doesn't read YAML, and cost ends up being a line everyone sees and nobody governs.
+
+---
+
+## Where to find me
+
+[aamaguelniski.com](https://aamaguelniski.com) · [LinkedIn](https://linkedin.com/in/aamaguelniski) · br@aamaguelniski.com
+
+Available for senior contract work, remote.
